@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+   {{>headerlinks}}
+  </head>
+  <body>
+   {{>navbar}}
+
+    <!-- mainheader -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+              <!-- left side -->
+              <div class="col-md-12 col-12 main_header_left align-items-center">
+                <figure>
+                    <img src="images/error.png" alt="Ashish" class="img-fluid"  >
+                </figure>
+                  <h1>{{errorMsg}}</h1>
+                <a href="/" target="_ashish"><button>Go Back </button></a>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer code -->
+   {{>footer}}
+  </body>
+</html>
