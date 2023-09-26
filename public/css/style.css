@@ -6,7 +6,7 @@
    box-sizing: border-box;
 }
 :root{
-   --main-bg : #1e272e;
+   --main-bg : #f75206;
    --main-color : #0097e6;
 }
 
@@ -43,6 +43,9 @@ body{
 
 .navbar a:hover{
    color: var(--main-color);
+   background-color: var(--main-color);
+   border-radius: 25%;
+   color: #fff;
 }
 
 .navbar-toggler{
