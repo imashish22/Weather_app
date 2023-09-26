@@ -43,9 +43,7 @@ body{
 
 .navbar a:hover{
    color: var(--main-color);
-   background-color: var(--main-color);
-   border-radius: 25%;
-   color: #fff;
+  
 }
 
 .navbar-toggler{
